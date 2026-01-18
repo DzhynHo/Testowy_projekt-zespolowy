@@ -40,3 +40,18 @@ button:hover {
     background-color: #b30000;
     transform: scale(1.05);
 }
+.pulse {
+    animation: pulse 0.6s ease;
+}
+
+@keyframes pulse {
+    0%   { transform: scale(1); color: white; }
+    50%  { transform: scale(1.2); color: #ff1a1a; }
+    100% { transform: scale(1); color: white; }
+}
+
+#counter {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #aaa;
+}
