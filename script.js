@@ -1,7 +1,6 @@
-// Pobranie przycisku po ID
 const button = document.getElementById("myButton");
+const text = document.getElementById("text");
 
-// Funkcja wywoływana po kliknięciu
-button.addEventListener("click", function() {
-    alert("Cześć! Kliknąłeś przycisk!");
+button.addEventListener("click", () => {
+    text.textContent = "JavaScript działa! 🔥";
 });
